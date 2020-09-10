@@ -34,7 +34,7 @@
     right: 15px;
     width: 250px;
   }
-  .box input[type = "submit"]{
+  #enviar{
     border:0;
     background: none;
     display: block;
@@ -48,7 +48,7 @@
     transition: 0.25s;
     cursor: pointer;
   }
-  .box input[type = "submit"]:hover{
+  #enviar:hover{
     background: #2ecc71;
   }
   #TieneUsuario:hover{

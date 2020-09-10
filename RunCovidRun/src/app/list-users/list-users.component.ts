@@ -28,5 +28,16 @@ export class ListUsersComponent implements OnInit {
       }
     )
   }
+  delete(id: number): void{
+    this.userService.delete(id).subscribe(
+      data => {
+        alert("Eliminado");
+        this.cargarUsuarios();
+      },
+      error => {
+        alert("Error al eliminar usuario");
+      }
+    )
+  }
 
 }
