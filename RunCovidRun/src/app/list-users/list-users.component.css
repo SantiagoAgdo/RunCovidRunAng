@@ -1,0 +1,10 @@
+#volver{
+    font-size: 4rem;
+    height: auto;
+}
+.iconBack{
+    position: absolute;
+    height: auto;
+    margin-left: 2rem;
+    top: 5px;       
+}

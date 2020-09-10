@@ -1,0 +1,25 @@
+<div class="iconBack">
+  <a routerLink="/" id="volver" class="text-warning"><i  class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
+</div>
+<div class="container mt-5 d-flex">
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="text-white" scope="col">#</th>
+        <th class="text-white" scope="col">Nombre</th>
+        <th class="text-white" scope="col">Puntaje</th>
+        <th class="text-white" scope="col">Fecha de creacion</th>
+        <th class="text-white" scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of users">
+        <td class="text-white">{{i.id}}</td>
+        <td class="text-white">{{i.name}}</td>
+        <td class="text-white">{{i.score}}</td>
+        <td class="text-white">{{i.dateCreation}}</td>
+        <td><button class="btn btn-outline-warning" routerLink="/">Play</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
