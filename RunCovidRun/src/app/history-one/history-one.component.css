@@ -1,0 +1,28 @@
+.arrow{
+  font-size: 3rem;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+h2{
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  color: white;
+}
+h3{
+  font-family: 'Signika', sans-serif;
+  text-align: justify;
+  text-align: center;
+  color: white;
+  margin: 15rem auto;
+}
+.icon{
+  position: relative;
+}
+.arrow{
+  position: absolute;
+  right: 0;
+  color: white;
+}
+

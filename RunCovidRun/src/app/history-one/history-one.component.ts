@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HistoryOneComponent implements OnInit {
 
+  nameUser: string = "Santi";
+
   constructor() { }
 
   ngOnInit() {

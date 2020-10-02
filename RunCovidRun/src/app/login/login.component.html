@@ -2,7 +2,8 @@
     <form class="box" (ngSubmit)="onCreate()" novalidate #f="ngForm" >
         <h1>Login</h1>
         <input type="text" name="nameUser" placeholder="Usuario" [(ngModel)]="nameUser" maxlength="15" required>
-        <button id="enviar" [disabled]="!f.valid" >Play</button>
+<!--        <button id="enviar" [disabled]="!f.valid" (click)="onNavigate()" >Play</button>-->
+        <button id="enviar" [disabled]="!f.valid" routerLink="/historyone" >Play</button>
         <a id="TieneUsuario" routerLink="/listausers" >Ya Tengo Usuario!</a>
     </form>
 </div>

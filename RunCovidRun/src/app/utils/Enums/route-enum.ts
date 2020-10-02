@@ -3,6 +3,7 @@ export enum RouteEnum{
     EMPTY = '',
     HOME = 'home',
     HISTORYONE = 'historyone',
+    HISTORYTWO = 'historytwo',
     LOGIN = 'login',
-    LISTAUSERS = 'listausers' 
+    LISTAUSERS = 'listausers'
 }

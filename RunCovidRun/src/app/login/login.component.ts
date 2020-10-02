@@ -32,5 +32,8 @@ export class LoginComponent implements OnInit {
       }
     )
   }
+  onNavigate(){
+    window.open("https://covidrun-9191a.web.app/", "_blank");
+  }
 
 }
