@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 //external
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HistoryTwoComponent } from './history-one/history-two.component';
+import { DescriptionComponent } from './description/description.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 
@@ -24,7 +25,8 @@ import { HistoryTwoComponent } from './history-one/history-two.component';
     HistoryOneComponent,
     LoginComponent,
     ListUsersComponent,
-    HistoryTwoComponent
+    HistoryTwoComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,
