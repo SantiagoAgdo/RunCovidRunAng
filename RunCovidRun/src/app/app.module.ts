@@ -15,6 +15,12 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HistoryTwoComponent } from './history-one/history-two.component';
 import { DescriptionComponent } from './description/description.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { RegistryComponent } from './registry/registry.component';
+import { ControlesComponent } from './controles/controles.component';
+import { ContacComponent } from './contac/contac.component';
+import { AboutGameComponent } from './about-game/about-game.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 
@@ -26,7 +32,13 @@ import { DescriptionComponent } from './description/description.component';
     LoginComponent,
     ListUsersComponent,
     HistoryTwoComponent,
-    DescriptionComponent
+    DescriptionComponent,
+    NavbarComponent,
+    FooterComponent,
+    RegistryComponent,
+    ControlesComponent,
+    ContacComponent,
+    AboutGameComponent
   ],
   imports: [
     BrowserModule,

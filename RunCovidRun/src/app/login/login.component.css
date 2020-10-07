@@ -14,21 +14,21 @@
     text-transform: uppercase;
     font-weight: 500;
   }
-  .box input[type = "text"]{
-    border:0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #3498db;
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-  }
-  .box input[type = "text"]:focus{
+  .box input[type = "text"],.box input[type = "password"]{
+       border:0;
+       background: none;
+       display: block;
+       margin: 20px auto;
+       text-align: center;
+       border: 2px solid #3498db;
+       padding: 14px 10px;
+       width: 200px;
+       outline: none;
+       color: white;
+       border-radius: 24px;
+       transition: 0.25s;
+     }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
     position: relative;
     border-color: #2ecc71;
     right: 15px;
@@ -54,5 +54,10 @@
   #TieneUsuario:hover{
     text-decoration: none;
   }
+  #registrar:hover{
+    text-decoration: none;
+  }
+  #bloque{
+    margin-bottom: 32rem;
+  }
 
-  

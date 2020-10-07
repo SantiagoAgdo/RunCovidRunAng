@@ -11,6 +11,7 @@ export class DescriptionComponent implements OnInit {
   }
 
   ngOnInit() {
+    setInterval(this.createSquare,150);
     this.createSquare();
   }
 
@@ -22,19 +23,24 @@ export class DescriptionComponent implements OnInit {
   ];
 
   createSquare() {
+    console.log("entro");
+    // console.log(this.colors.length);
     const section = document.querySelector('section');
-    const square = document.createElement('span');
+    const square = document.createElement('img');
     let size = Math.random() * 50;
 
     square.style.width = 20 + size + 'px';
-
     square.style.height = 20 + size + 'px';
+
+    square.style.position =  'absolute';
+    // square.style.backgroundColor = 'white';
+    square.setAttribute('src','../../assets/img/virusbackrepet.png');
 
     square.style.top = Math.random() * innerHeight + 'px';
     square.style.left = Math.random() * innerWidth + 'px';
 
-    const bg = this.colors[Math.floor(Math.random() * this.colors.length)];
-    square.style.background = bg;
+
+    square.style.background = 'tffeb3b';
 
     section.appendChild(square);
 
@@ -42,4 +48,5 @@ export class DescriptionComponent implements OnInit {
       square.remove();
     }, 5000);
   }
+
 }

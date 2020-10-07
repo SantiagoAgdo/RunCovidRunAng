@@ -1,63 +1,32 @@
-#logo {
-  width: 3rem;
-  height: 3rem;
-  margin-right: 1px;
-}
-
 #fondo {
-  opacity: 0.5;
+  z-index: 3;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  color: white;
-  text-align: center;
-}
+/** {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  bax-sizing: boder-box;*/
+/*}*/
 
-.redesSociales {
+/*body {*/
+/*  overflow: hidden;*/
+/*  height: 100vh;*/
+/*  background: #000;*/
+/*}*/
 
-  margin-right: 2rem;
-}
-
-.redesSociales:last-child {
-  margin-right: 0;
-}
-
-.iconos {
-  font-size: 2rem;
-  color: white;
-}
-
-.numero {
-  margin-top: 5px;
-}
-
-
-\\Animacion
-* {
-  margin: 0;
-  padding: 0;
-  bax-sizing: boder-box;
-}
-
-body {
+.bloque{
   overflow: hidden;
-  height: 100vh;
-  background: #000;
 }
 
 section {
-  height: 100vh;
+  width: 100%;
 }
 
 span {
   position: absolute;
   pointer-events: none;
-  background: #fff;
   animation: animate 5s linear infinite;
+  /*background-image: url("../../assets/img/virusbackrepet.png");*/
 }
 
 @keyframes animate {

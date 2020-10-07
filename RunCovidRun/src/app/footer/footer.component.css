@@ -1,0 +1,28 @@
+.redesSociales {
+  margin-right: 2rem;
+}
+
+.redesSociales:last-child {
+  margin-right: 0;
+}
+
+.iconos {
+  font-size: 1.7rem;
+  color: beige;
+}
+
+.numero {
+  margin-top: 5px;
+  color: beige;
+  z-index: 10;
+}
+.contac{
+  margin-left: 40%;
+  z-index: 10;
+}
+#foter{
+  color: beige;
+}
+footer{
+  bottom: 0;
+}

@@ -9,20 +9,23 @@ h2{
   font-family: 'Righteous', cursive;
   text-align: center;
   color: white;
+
 }
 h3{
   font-family: 'Signika', sans-serif;
   text-align: justify;
   text-align: center;
   color: white;
-  margin: 15rem auto;
+  margin: 12rem auto;
 }
 .icon{
   position: relative;
+  margin-bottom: 8rem;
 }
 .arrow{
   position: absolute;
   right: 0;
   color: white;
+  margin-bottom: 2rem;
 }
 
