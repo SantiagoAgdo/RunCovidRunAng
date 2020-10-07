@@ -1,15 +1,13 @@
 <div id="bloque">
-    <form class="box" (ngSubmit)="checkUser()" novalidate #f="ngForm" >
+    <form class="box"  novalidate #f="ngForm" >
         <h1>Login</h1>
         <input type="text" name="nameUser" placeholder="Usuario" [(ngModel)]="nameUser" maxlength="15" required>
         <input type="password" name="passUser" placeholder="Contraseña" [(ngModel)]="passUser"   maxlength="8" required>
 <!--        <button id="enviar" [disabled]="!f.valid" (click)="onNavigate()" >Play</button>-->
-        <button id="enviar" [disabled]="!f.valid" routerLink="/historyone" >Play</button>
+        <button id="enviar" [disabled]="!f.valid" (click)="checkUser()" >Play</button>
         <a id="TieneUsuario" routerLink="/listausers" >Usuarios!</a> <br>
         <a id="registrar" routerLink="/registry" >Registrarme</a>
     </form>
-  <button id="test"  routerLink="/description" >Test</button>  <!-- ELIMINAR -->
-
 </div>
 
 

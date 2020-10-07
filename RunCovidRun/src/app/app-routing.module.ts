@@ -3,18 +3,18 @@ import {NgModule} from '@angular/core';
 import {RouteEnum} from './utils/Enums/route-enum';
 
 
-import {HomeComponent} from '../app/home/home.component';
-import {HistoryOneComponent} from '../app/history-one/history-one.component';
-import {LoginComponent} from '../app/login/login.component';
-import {ListUsersComponent} from '../app/list-users/list-users.component';
-import {HistoryTwoComponent} from './history-one/history-two.component';
-import {DescriptionComponent} from './description/description.component';
-import {NavbarComponent} from './navbar/navbar.component';
-import {FooterComponent} from './footer/footer.component';
-import {RegistryComponent} from './registry/registry.component'
-import {ControlesComponent} from './controles/controles.component';
-import {ContacComponent} from './contac/contac.component';
-import {AboutGameComponent} from './about-game/about-game.component';
+import {HomeComponent} from './Web/home/home.component';
+import {HistoryOneComponent} from './VideoGame/history-one/history-one.component';
+import {LoginComponent} from './VideoGame/login/login.component';
+import {ListUsersComponent} from './Web/list-users/list-users.component';
+import {HistoryTwoComponent} from './VideoGame/history-one/history-two.component';
+import {DescriptionComponent} from './Web/description/description.component';
+import {NavbarComponent} from './Web/navbar/navbar.component';
+import {FooterComponent} from './Web/footer/footer.component';
+import {RegistryComponent} from './VideoGame/registry/registry.component'
+import {ControlesComponent} from './Web/controles/controles.component';
+import {ContacComponent} from './Web/contac/contac.component';
+import {AboutGameComponent} from './Web/about-game/about-game.component';
 
 const routes: Routes = [
   {path: RouteEnum.HOME, component: HomeComponent},

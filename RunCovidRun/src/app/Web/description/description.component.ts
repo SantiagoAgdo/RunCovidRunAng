@@ -12,7 +12,6 @@ export class DescriptionComponent implements OnInit {
 
   ngOnInit() {
     setInterval(this.createSquare,150);
-    this.createSquare();
   }
 
   colors: string[] = [
@@ -23,8 +22,6 @@ export class DescriptionComponent implements OnInit {
   ];
 
   createSquare() {
-    console.log("entro");
-    // console.log(this.colors.length);
     const section = document.querySelector('section');
     const square = document.createElement('img');
     let size = Math.random() * 50;
@@ -41,8 +38,9 @@ export class DescriptionComponent implements OnInit {
 
 
     square.style.background = 'tffeb3b';
-
+    if (!(square == null)){
     section.appendChild(square);
+    }
 
     setTimeout(() => {
       square.remove();

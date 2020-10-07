@@ -6,7 +6,7 @@
     position: absolute;
     height: auto;
     margin-left: 2rem;
-    top: 5px;       
+    top: 3rem;
 }
 
 .trash{
@@ -15,5 +15,13 @@
 }
 #trashIcon{
     margin-top: 10px;
-    color: red;
+    color: #ff0000;
 }
+.box{
+  margin-top: 5rem;
+}
+.box2{
+  margin-bottom: 35rem;
+}
+
+
