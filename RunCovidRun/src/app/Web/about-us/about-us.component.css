@@ -27,12 +27,13 @@ body{
   margin: 10px;
   -webkit-perspective: 800;
   perspective: 800;
+
 }
 
 .tarjeta{
   width: 300px;
   height: 350px;
-  background: green;
+  background: #006400;
   position: relative;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
@@ -40,6 +41,7 @@ body{
   transition: .7s ease;
   -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
   box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+  border-radius: 10%;
 
 }
 
@@ -78,7 +80,9 @@ body{
   text-align: center;
   color: #fff;
   font-family: "open sans";
-  background: green;
+  background: #006400;
+  border-radius: 10%;
+
 }
 
 .tarjeta-wrap:hover .tarjeta{
@@ -87,16 +91,32 @@ body{
 }
 
 .card1{
-  background-image: url(https://cdn3.iconfinder.com/data/icons/avatar-93/140/avatar__boy__child__man__male-512.png);
+  border-radius: 50%;
+  background-image: url(https://unipanamericanaeduco-my.sharepoint.com/personal/gsantiagoagudelo_unipanamericana_edu_co/Documents/Microsoft%20Teams%20Chat%20Files/IMG_20200915_143257.jpg);
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 250px;
+  height: 250px;
 }
 
 .card2{
-  background-image: url(https://cdn3.iconfinder.com/data/icons/avatar-93/140/girl__avatar__female__women__lady-512.png);
+  border-radius: 50%;
+  background-image: url(https://unipanamericanaeduco-my.sharepoint.com/personal/gsantiagoagudelo_unipanamericana_edu_co/Documents/Microsoft%20Teams%20Chat%20Files/felipoe.png);
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 250px;
+  height: 250px;
 }
+.nombre{
+  color: white;
+  font-size: 25px;
+  margin-top: 265px;
+  margin-left: 22px;
+}
+.andres{
+  margin-left: 55px;
+}
+
 
