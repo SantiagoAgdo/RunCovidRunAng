@@ -15,6 +15,7 @@ import {RegistryComponent} from './VideoGame/registry/registry.component'
 import {ControlesComponent} from './Web/controles/controles.component';
 import {ContacComponent} from './Web/contac/contac.component';
 import {AboutGameComponent} from './Web/about-game/about-game.component';
+import {AboutUsComponent} from './Web/about-us/about-us.component';
 
 const routes: Routes = [
   {path: RouteEnum.HOME, component: HomeComponent},
@@ -28,6 +29,7 @@ const routes: Routes = [
   {path: RouteEnum.CONTROLES, component: ControlesComponent},
   {path: RouteEnum.CONTAC, component: ContacComponent},
   {path: RouteEnum.ABOUTGAME, component: AboutGameComponent},
+  {path: RouteEnum.ABOUTUS, component: AboutUsComponent},
   {path: RouteEnum.LOGIN, component: LoginComponent},
   {path: '', redirectTo: RouteEnum.LOGIN, pathMatch: 'full'},
   {path: '**', redirectTo: RouteEnum.LOGIN, pathMatch: 'full'}

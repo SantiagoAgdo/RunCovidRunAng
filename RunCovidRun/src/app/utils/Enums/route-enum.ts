@@ -12,5 +12,6 @@ export enum RouteEnum{
     REGISTRY = 'registry',
     CONTROLES = 'controles',
     CONTAC = 'contac',
-    ABOUTGAME = 'aboutgame'
+    ABOUTGAME = 'aboutgame',
+    ABOUTUS = 'aboutus'
 }

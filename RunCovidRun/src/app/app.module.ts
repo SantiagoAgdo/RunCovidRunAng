@@ -21,6 +21,7 @@ import { RegistryComponent } from './VideoGame/registry/registry.component';
 import { ControlesComponent } from './Web/controles/controles.component';
 import { ContacComponent } from './Web/contac/contac.component';
 import { AboutGameComponent } from './Web/about-game/about-game.component';
+import { AboutUsComponent } from './Web/about-us/about-us.component';
 // import { ToastrModule } from 'ngx-toastr';
 
 
@@ -38,7 +39,8 @@ import { AboutGameComponent } from './Web/about-game/about-game.component';
     RegistryComponent,
     ControlesComponent,
     ContacComponent,
-    AboutGameComponent
+    AboutGameComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
