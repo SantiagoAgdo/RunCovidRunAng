@@ -92,7 +92,7 @@ body{
 
 .card1{
   border-radius: 50%;
-  background-image: url(https://unipanamericanaeduco-my.sharepoint.com/personal/gsantiagoagudelo_unipanamericana_edu_co/Documents/Microsoft%20Teams%20Chat%20Files/IMG_20200915_143257.jpg);
+  background-image: url(../../../assets/img/ElSanti.jpg);
   background-size: cover;
   margin-top: 25px;
   margin-left: 25px;
@@ -102,7 +102,7 @@ body{
 
 .card2{
   border-radius: 50%;
-  background-image: url(https://unipanamericanaeduco-my.sharepoint.com/personal/gsantiagoagudelo_unipanamericana_edu_co/Documents/Microsoft%20Teams%20Chat%20Files/felipoe.png);
+  background-image: url(../../../assets/img/ElPipe.png);
   background-size: cover;
   margin-top: 25px;
   margin-left: 25px;
