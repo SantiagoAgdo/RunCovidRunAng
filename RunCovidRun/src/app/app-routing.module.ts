@@ -29,8 +29,8 @@ const routes: Routes = [
   {path: RouteEnum.ABOUTGAME, component: AboutGameComponent},
   {path: RouteEnum.ABOUTUS, component: AboutUsComponent},
   {path: RouteEnum.LOGIN, component: LoginComponent},
-  {path: '', redirectTo: RouteEnum.LOGIN, pathMatch: 'full'},
-  {path: '**', redirectTo: RouteEnum.LOGIN, pathMatch: 'full'}
+  {path: '', redirectTo: RouteEnum.DESCRIPTION, pathMatch: 'full'},
+  {path: '**', redirectTo: RouteEnum.DESCRIPTION, pathMatch: 'full'}
 
 ];
 
