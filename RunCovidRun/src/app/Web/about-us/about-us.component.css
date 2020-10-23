@@ -87,10 +87,12 @@ body{
 }
 
 .card1{
+  margin-left: 25px;
+  margin-top: 25px;
   background-image: url(https://cdn3.iconfinder.com/data/icons/avatar-93/140/avatar__boy__child__man__male-512.png);
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .card2{

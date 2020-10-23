@@ -42,7 +42,7 @@ export class HistoryTwoComponent implements OnInit {
 
     //Ejecuta el Juego
     setTimeout(function() {
-      window.open("https://covidrun-9191a.web.app/", "_blank");
+      window.open("https://covidrun-9191a.web.app/");
     }, 28000);
   }
 

@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './Web/home/home.component';
 import { HistoryOneComponent } from './VideoGame/history-one/history-one.component';
 import { LoginComponent } from './VideoGame/login/login.component';
 import { ListUsersComponent } from './Web/list-users/list-users.component';
@@ -28,7 +27,6 @@ import { AboutUsComponent } from './Web/about-us/about-us.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     HistoryOneComponent,
     LoginComponent,
     ListUsersComponent,

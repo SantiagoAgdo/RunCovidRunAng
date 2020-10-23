@@ -1,11 +1,10 @@
-<link rel="stylesheet" href="registry.component.css">
 <div id="bloque">
   <form class="box"  novalidate #f="ngForm" >
     <h1>Registro</h1>
     <input type="text" name="nameUser" placeholder="Usuario" [(ngModel)]="nameUser" maxlength="15" required>
     <input type="password" name="passUser" placeholder="Contraseña" [(ngModel)]="passUser"   maxlength="8" required>
     <button id="enviar" [disabled]="!f.valid" (click)="onCreate()" >Registrarme</button>
-    <a id="TieneUsuario" routerLink="/login" >Ya Tengo Usuario!</a>
+    <a id="TieneUsuario" routerLink="/login" >Ya Tengo Usuario</a>
   </form>
 
 </div>

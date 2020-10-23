@@ -3,7 +3,6 @@ import {NgModule} from '@angular/core';
 import {RouteEnum} from './utils/Enums/route-enum';
 
 
-import {HomeComponent} from './Web/home/home.component';
 import {HistoryOneComponent} from './VideoGame/history-one/history-one.component';
 import {LoginComponent} from './VideoGame/login/login.component';
 import {ListUsersComponent} from './Web/list-users/list-users.component';
@@ -18,7 +17,6 @@ import {AboutGameComponent} from './Web/about-game/about-game.component';
 import {AboutUsComponent} from './Web/about-us/about-us.component';
 
 const routes: Routes = [
-  {path: RouteEnum.HOME, component: HomeComponent},
   {path: RouteEnum.HISTORYONE, component: HistoryOneComponent},
   {path: RouteEnum.HISTORYTWO, component: HistoryTwoComponent},
   {path: RouteEnum.LISTAUSERS, component: ListUsersComponent},
