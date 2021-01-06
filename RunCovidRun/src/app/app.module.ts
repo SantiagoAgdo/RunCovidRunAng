@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HistoryOneComponent } from './VideoGame/history-one/history-one.component';
 import { LoginComponent } from './VideoGame/login/login.component';
 import { ListUsersComponent } from './Web/list-users/list-users.component';
-
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
